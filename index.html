@@ -92,7 +92,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-        <!--====== about section ======-->
+        <!--====== recent post section ======
         <section id="port" class="port section-padding">
             <div class="container">
                 <div class="row">
@@ -113,7 +113,7 @@
                 </div>
             </div>
         </section>
-
+-->
         <!--====== post card topics ======-->
         <section id="posts" class="posts section-padding">
             <div class="container">
@@ -223,29 +223,30 @@
                 </div>
                 <div class="row m-0">
                     <div class="col-md-12 p-0 pt-4 pb-4">
-                        <form action="#" class="bg-light p-4.m-auto">
+                        <form action="https://api.web3forms.com/submit"  method="POST" class="bg-light p-4.m-auto">
+                            <input type="hidden" name="access_key" value="2d222a55-ba72-4db6-b703-30d891b22d6f">
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="mb-3">
-                                        <input type="text" class="form-control" required placeholder="Your Name">
+                                        <input name="Name" type="text" class="form-control" required placeholder="Your Name">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="mb-3">
-                                        <input type="number" class="form-control" required placeholder="Your mobile number">
+                                        <input name="Phone no.:" type="number" class="form-control" required placeholder="Your mobile number">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="mb-3">
-                                        <input type="email" class="form-control" required placeholder="Your Email Address">
+                                        <input name="Email Address:" type="email" class="form-control" required placeholder="Your Email Address">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="mb-3">
-                                        <textarea rows="3" required class="form-control" placeholder="Your Query"></textarea>
+                                        <textarea name="Message:" rows="3" required class="form-control" placeholder="Your Query"></textarea>
                                     </div>
                                 </div>
-                                <button class="btn btn-warning btn-lg btn-block mt-3">Send</button>
+                                <button type="submit" class="btn btn-warning btn-lg btn-block mt-3">Send</button>
                             </div>
                         </form>
                     </div>
