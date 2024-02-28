@@ -5,7 +5,7 @@ h2{
     font-size: large;
 }
 body{
-    background: #f1fbff;;
+    background: #f1fbff;
 }
 .section-padding{
     padding: 100px 0;
@@ -19,12 +19,14 @@ carousel-caption{
     z-index: 2;
 }
 carousel-caption h5{
+    color: white;
     font-size: 45px;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-top: 25px;
 }
 .carousel-caption p{
+    color: white;
     width: 60%;
     margin: auto;
     font-size: 18px;
