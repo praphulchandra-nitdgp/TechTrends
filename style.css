@@ -113,10 +113,11 @@ footer.footer .rights{
 
 footer.footer .rights h4 a{
     color: white;
-    font-size: 0.9rem;
+    font-size: 0.6rem;
 }
 footer.footer .about-us p{
     font-size: 0.9rem;
+    color: #808080;
 }
 
 /* responsive */
